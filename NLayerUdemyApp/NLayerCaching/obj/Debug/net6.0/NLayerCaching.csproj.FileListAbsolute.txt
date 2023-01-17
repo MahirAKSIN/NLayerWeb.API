@@ -1,0 +1,12 @@
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayerCaching.deps.json
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayerCaching.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayerCaching.pdb
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.csproj.AssemblyReference.cache
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.AssemblyInfoInputs.cache
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.AssemblyInfo.cs
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.csproj.CoreCompileInputs.cache
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\refint\NLayerCaching.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.pdb
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\ref\NLayerCaching.dll
