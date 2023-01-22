@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "o/b8ET3Ywbzc6NSiORc1Llqeg4aWdPi/grDGo95kdmY1gJLNB5aOQYV9UgXUkEdntg8E5ypT6lIFotPCXEvLLw==",
+  "dgSpecHash": "1egnDII49Rn6UxDOphaXfpIuAW+IFMUWmFuhlRhuuJrWGF7CjMHn/ZOab94oveXkObL8PMsAYhHeHiQYa5GkOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\inspi\\source\\repos\\NLayerUdemyApp\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\inspi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
