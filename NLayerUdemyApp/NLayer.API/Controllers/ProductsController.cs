@@ -7,27 +7,24 @@ using NLayer.Core.Services;
 
 namespace NLayer.API.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
 
     public class ProductsController : CustomerBaseController
     {
 
         private readonly IMapper _mapper;
-        private readonly IService<ProductEntity> _service;
-        private readonly IProductService procductService;
+        private readonly IProductService _service;
 
         public ProductsController(IMapper mapper, IService<ProductEntity> service, IProductService procductService)
         {
             _mapper = mapper;
-            _service = service;
-            this.procductService = procductService;
+            _service = procductService;
+            
         }
 
         [HttpGet("[action]")]
         public async Task<IActionResult> GetProductWithCategory()
         {
-            return CreateActionResult(await procductService.GetProductsWithCategory());
+            return CreateActionResult(await _service.GetProductsWithCategory());
         }
 
 

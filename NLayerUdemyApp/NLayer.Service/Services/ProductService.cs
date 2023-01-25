@@ -30,7 +30,7 @@ namespace NLayer.Service.Services
         public async Task<CustomResposeDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
         {
             var product = await _productRepository.GetProductsWithCategory();
-            var productDto = _mapper.Map<List<ProductWithCategoryDto>>(product);
+            var productDto = _mapper.Map<List<ProductWithCategoryDto>> (product);
             return CustomResposeDto<List<ProductWithCategoryDto>>.Success(200, productDto);
         
         }

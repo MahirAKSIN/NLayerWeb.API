@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NLayer.Core;
+using NLayer.Core.DTOs;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
@@ -26,6 +27,10 @@ builder.Services.AddScoped(typeof(IService<>), (typeof(Service<>)));
 builder.Services.AddAutoMapper(typeof(MapProfile));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
+
+
+builder.Services.AddScoped<ICategoryRepositroy, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();    
 
 
 builder.Services.AddDbContext<AppDbContext>(x =>
