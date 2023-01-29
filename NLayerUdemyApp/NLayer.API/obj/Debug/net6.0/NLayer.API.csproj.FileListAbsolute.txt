@@ -66,3 +66,6 @@ C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Microsoft
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\obj\Debug\net6.0\NLayer.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

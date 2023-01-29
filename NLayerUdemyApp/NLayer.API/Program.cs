@@ -1,4 +1,8 @@
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NLayer.API.Filters;
+using NLayer.API.Middlewares;
 using NLayer.Core;
 using NLayer.Core.DTOs;
 using NLayer.Core.Repositories;
@@ -9,13 +13,22 @@ using NLayer.Repository.Repositories;
 using NLayer.Repository.UnitOfWorks;
 using NLayer.Service.Mapping;
 using NLayer.Service.Services;
+using NLayer.Service.Validations;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(option => { option.Filters.Add(new ValidateFilterAttribute()); }).AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+
+builder.Services.Configure<ApiBehaviorOptions>(x =>
+{
+
+    x.SuppressModelStateInvalidFilter = true;
+
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -30,7 +43,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 
 
 builder.Services.AddScoped<ICategoryRepositroy, CategoryRepository>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();    
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(x =>
@@ -53,6 +66,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCustomeExceptio();
+
 
 app.UseHttpsRedirection();
 

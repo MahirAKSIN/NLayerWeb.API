@@ -24,9 +24,9 @@ namespace NLayer.Service.Services
             _mapper = mapper;
             _categoryRepositroy = categoryRepositroy;
         }
-         
 
-      public async  Task<CustomResposeDto<CategoryWithProductDto>> GetSingleCategoryByWithProductAsynv(int CategoryId)
+  
+        public async  Task<CustomResposeDto<CategoryWithProductDto>> GetSingleCategoryByWithProductAsynv(int CategoryId)
         {
             var category = await _categoryRepositroy.GetSingleCategoryByWithProductAsynv(CategoryId);
             var categoryDTO = _mapper.Map<CategoryWithProductDto>(category);

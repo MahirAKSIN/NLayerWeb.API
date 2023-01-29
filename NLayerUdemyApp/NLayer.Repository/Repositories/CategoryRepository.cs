@@ -15,6 +15,11 @@ namespace NLayer.Repository.Repositories
         {
         }
 
+        public Task<CategoryEntity> GetSingleAsync(int cat)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<CategoryEntity> GetSingleCategoryByWithProductAsynv(int CategoryId)
         {
 
