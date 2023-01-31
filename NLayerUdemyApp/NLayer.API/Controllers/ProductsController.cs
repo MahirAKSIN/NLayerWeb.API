@@ -20,7 +20,7 @@ namespace NLayer.API.Controllers
         {
             _mapper = mapper;
             _service = procductService;
-            
+
         }
 
         [HttpGet("[action]")]
@@ -39,6 +39,8 @@ namespace NLayer.API.Controllers
             return CreateActionResult(CustomResposeDto<List<ProductDTO>>.Success(200, productsDtos));
 
         }
+
+        [ServiceFilter(typeof(NotFoundFiltercs<ProductEntity>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
