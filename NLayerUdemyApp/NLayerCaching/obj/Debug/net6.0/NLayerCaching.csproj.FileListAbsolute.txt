@@ -10,3 +10,10 @@ C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayer
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\refint\NLayerCaching.dll
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.pdb
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\ref\NLayerCaching.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayer.Repository.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\obj\Debug\net6.0\NLayerCaching.csproj.CopyComplete
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayer.Service.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayerCaching\bin\Debug\net6.0\NLayer.Service.pdb

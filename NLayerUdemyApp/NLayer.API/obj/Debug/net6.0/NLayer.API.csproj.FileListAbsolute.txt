@@ -71,3 +71,7 @@ C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentVal
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Autofac.dll
 C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\NLayerCaching.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\NLayerCaching.pdb
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\inspi\source\repos\NLayerUdemyApp\NLayer.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

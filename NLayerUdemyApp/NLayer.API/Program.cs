@@ -54,7 +54,7 @@ builder.Host.UseServiceProviderFactory
     (new AutofacServiceProviderFactory());
 
 builder.Host.ConfigureContainer<ContainerBuilder>(container => container.RegisterModule(new RepoServiceModule()));
-
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
@@ -62,7 +62,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI();  
 }
 
 app.UseCustomeExceptio();
